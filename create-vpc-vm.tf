@@ -4,7 +4,7 @@ terraform {
             source = "hashicorp/google"
         }
     }
-    
+    #Criar um Bucket na ui 
     backend "gcs" {
       bucket = "rvmterraform"
       prefix = "terraform/state"
